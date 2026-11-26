@@ -308,7 +308,7 @@ html[data-theme="luna"] .focus strong { color: var(--accent); }
 .note { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
 
 /* ---------- Projects ---------- */
-.projects { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .project {
   display: flex; flex-direction: column;
   background: var(--win-bg-2);
@@ -320,7 +320,6 @@ html[data-theme="luna"] .focus strong { color: var(--accent); }
 .project:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.25); }
 .shot { display: block; aspect-ratio: 16 / 9; overflow: hidden; background: #000; border-bottom: 1px solid var(--line); }
 .shot img { width: 100%; height: 100%; object-fit: cover; object-position: top left; }
-.shot-center img { object-position: center; }
 .project-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .project h3 { margin: 0; font-size: 17px; }
 .project h3 a { color: var(--body-text); text-decoration: none; }
@@ -497,7 +496,6 @@ html[data-theme="luna"] .foot { color: #0b2a5c; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
-  .projects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .grid-2 { grid-template-columns: minmax(0, 1fr); }
   .contact { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
