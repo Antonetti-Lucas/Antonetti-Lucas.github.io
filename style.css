@@ -277,6 +277,8 @@ html[data-theme="luna"] .focus strong { color: var(--accent); }
 .when { font-size: 13px; color: var(--muted); white-space: nowrap; }
 .role { margin: 2px 0 6px; font-size: 14px; color: var(--accent); font-weight: 600; }
 .entry p { margin: 0; }
+.entry .meta { margin: 0 0 8px; font-size: 13.5px; color: var(--muted); }
+.entry .meta strong { color: var(--body-text); font-weight: 600; }
 .entry ul { margin: 6px 0 0; padding-left: 20px; }
 .entry li + li { margin-top: 2px; }
 
